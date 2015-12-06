@@ -1,0 +1,167 @@
+body {
+	font-family: "trebuchet ms", verdana, sans-serif;
+	font-size: 12px;
+	line-height: 1.5em;
+	color: #333;
+	background: #ffffff;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	width: 100%;
+}
+
+p {
+	margin-top: 10px;
+}
+
+h3 {
+	font: bold 140% trebuchet ms, sans-serif;
+	letter-spacing: 5px;
+	margin-bottom: 0;
+	color: #000000;
+}
+
+hr {
+	color: #eee;
+	background-color: #000;
+	height: 2px;
+}
+
+a:link {
+	text-decoration: none;
+	color: #000;
+}
+
+a:visited {
+	text-decoration: none;
+	color: #000;
+}
+
+a:hover, a:active {
+	text-decoration: none;
+	color: #000;
+}
+
+
+img {
+	border: 0;
+}
+
+#container {
+	position: absolute;
+	top: 85px;
+	left: 0px;
+	background: #ffffff;
+	margin: 0 auto 0 auto;
+	border-bottom: 1px solid #eee;
+	text-align: left;
+	width: 100%;
+	height: 100%;
+}
+
+#menu {
+	font-family: "trebuchet ms", verdana, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	position: absolute;
+	height: 27px;
+	top: 60px;
+	left: 0px;
+	width: 100%;
+	padding: 0px;
+	color: #000000;
+	background-color: #eee
+}
+
+#header {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 60px;
+	width: 100%;
+	background: #333;
+	padding-top: 8px;
+}
+
+#header h1 {
+	font-size: 30px;
+	text-transform: uppercase;
+	letter-spacing: 0.3em;
+	color: #fff;
+}
+
+#main {
+	margin: 5px 5px 5px 5px;
+	padding: 5px 5px 5px 5px;
+	background: #FFFFFF;
+}
+
+
+#bar {
+	float: left;
+	width: 200px;
+	background: #eee;
+	z-index: 1;
+	padding: 10px;
+	margin-right: 30px;
+	height: 100%;
+}
+
+#bar h1 {
+ 	font-size: 12px;
+	text-transform: uppercase;
+	letter-spacing: 0.3em;
+}
+
+/* ------- calendar specific styles -------- */
+
+a.cal_date:link {text-decoration:none;color:white;display:block;width:100%;height:100%;}
+a.cal_date:visited {text-decoration:none;color:white;display:block;width:100%;height:100%;}
+a.cal_date:hover {text-decoration:none;color:white;display:block;width:100%;height:100%;}
+a.cal_date:active {text-decoration:none;color:white;display:block;width:100%;height:100%;}
+
+a.cal:link {text-decoration:none;color:red;display:block;height:100%;background:white;padding:3px;}
+a.cal:visited {text-decoration:none;color:red;display:block;width:100%;height:100%;background:white;padding:3px;}
+a.cal:hover {text-decoration:none;color:white;display:block;width:100%;height:100%;background:#dddddd;border: thin solid black;padding:0px;}
+a.cal:active {text-decoration:none;color:red;display:block;width:100%;height:100%;background:white;padding:3px;}
+
+a.event:link {text-decoration:none;color:blue;width:100%;background:lightblue;padding:3px;}
+a.event:visited {text-decoration:none;color:blue;width:100%;background:lightblue;padding:3px;}
+
+a.deleteevent:link {text-decoration:none;color:blue;background:red;padding:3px;border:thin solid black;}
+a.deleteevent:visited {text-decoration:none;color:blue;background:red;padding:3px;border:thin solid black;}
+
+
+table.cal {
+	border: thin solid black;
+}
+
+th.cal {
+  background: #000000;
+  color: #ffffff;
+}
+
+td.cal_date {
+  background: #333333;
+  color: #ffffff;
+}
+
+td.cal {
+}
+
+span.datepicker {
+	font-family: "trebuchet ms", verdana, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;	
+}
+
+#login {
+	font-family: "trebuchet ms", verdana, sans-serif;
+	font-size: 12px;
+	border: thin solid black;	
+	width: 300px;
+	margin: 20px auto 0 auto;
+	background: #eeeeee;
+	padding: 10px;
+}
